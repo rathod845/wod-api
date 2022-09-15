@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+  wodapi:
+    image: wordapi
+    build: .
+    environment:
+      NODE_ENV: devlopment
+    ports:
+      - 3000:3000
